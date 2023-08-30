@@ -6,3 +6,12 @@ catalogue.srivijay.online
 
 [web]
 web.srivijay.online
+
+[redis]
+redis.srivijay.online
+
+[user]
+user.srivijay.online
+
+[cart]
+cart.srivijay.online

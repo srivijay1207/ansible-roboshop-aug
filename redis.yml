@@ -1,0 +1,8 @@
+- name: Redis installation
+  hosts: redis
+  become: yes
+  tasks:
+  - name: insatall rpm
+    ansible.builtin.yum:
+      name: https://rpms.remirepo.net/enterprise/remi-release-8.rpm -y
+      state: present
