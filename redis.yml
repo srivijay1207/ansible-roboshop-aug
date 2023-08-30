@@ -8,7 +8,7 @@
       state: installed
   - name: enable redis 6.2
     ansible.builtin.service:
-      name: redis
+      name: redis 6.2
       state: started
       enabled: yes
   - name: install redis
